@@ -70,19 +70,7 @@ export const Header = () => {
         style={{ color: stakePoolMetadata?.colors?.fontColor }}
       >
         <div className="flex items-center gap-3">
-          <a
-            target="_blank"
-            href={
-              stakePoolMetadata?.websiteUrl ||
-              `/${
-                ctx.environment.label !== 'mainnet-beta'
-                  ? `?cluster=${ctx.environment.label}`
-                  : ''
-              }`
-            }
-            className="flex cursor-pointer text-xl font-semibold"
-            rel="noreferrer"
-          >
+          
             {stakePoolMetadata?.imageUrl ? (
               <>
                 <div className="flex flex-row">
@@ -130,7 +118,7 @@ export const Header = () => {
                 Staking
               </TitleText>
             )}
-          </a>
+          
           {ctx.environment.label !== 'mainnet-beta' && (
             <div className="cursor-pointer rounded-md bg-[#9945ff] p-1 text-[10px] italic text-white">
               {ctx.environment.label}
@@ -170,7 +158,7 @@ export const Header = () => {
                     )
                   }
                 >
-                  <p className="my-auto mr-10 hover:cursor-pointer">Admin</p>
+                  
                 </div>
               </>
             )}
