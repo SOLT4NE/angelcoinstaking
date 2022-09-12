@@ -86,7 +86,7 @@ export const stakePoolMetadatas: StakePoolMetadata[] = [
     stakePoolAddress: new PublicKey(
        '79WfukhxecT8DaiQyLVucQ7y8QKRZBo6sNfekWo54RFe'
     ),
-     imageUrl: '/logo-colored.png',
+     imageUrl: 'https://ipfs.io/ipfs/bafybeici2pezegkxavinxeabanofinnafwj6iovnatbig73cm6fenjt4uy/1679.png',
    colors: {
        primary: '#3f32f8',
        secondary: '#000000',
